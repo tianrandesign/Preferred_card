@@ -17,7 +17,7 @@ body {
 .bg{
 /*	background-image: url('../images/butterfly.png');
 	background-size: cover;*/
-	background: #001670;
+	background: #242d5a;
 	width: 400px;
 	height: 252px;
 	display: flex;
@@ -31,6 +31,13 @@ body {
 .butterfly{
 	width:380px;
 	  position: relative;
+  top: 0;
+  left: 0;
+	transform: translateZ(25px);
+}
+.butterfly_close{
+	width:380px;
+	  position: absolute;
   top: 0;
   left: 0;
 	transform: translateZ(30px);
@@ -57,10 +64,10 @@ body {
 transform: translateZ(5px);
 }
 .year{  top:1px; left:180px;}
-.c1{top:190px; left:16px;}
-.c2{top:210px; left:16px;}
+.c1{top:190px; left:24px;}
+.c2{top:210px; left:24px;}
 .c3{top:210px; left:155px;}
-.c4{top:210px; right:16px;}
+.c4{top:210px; right:24px;}
 .label{
 	color: #6B6B6B; font-family: BentonSans, calibri, sans-serif; font-size: 12px; text-align: center; text-transform: uppercase; padding-bottom: 80px;
 }
